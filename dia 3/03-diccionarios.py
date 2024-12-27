@@ -4,12 +4,11 @@ capitales = {
         'Chile': 'Santiago',
         'Colombia':'Bodega'
     }
-print(capitales['Chile'])
 pais= input('Ingrese el pais: ')
 if pais in capitales:
     capital = capitales.get(pais)
     print(f'la capital de {pais} es {capital}')
-    eliminar_capital = input('¿Desea eliminar la capital? (si,no)')
+    eliminar_capital = input('¿Desea eliminar la capital? (si,no): ')
     if eliminar_capital == 'si':
         capitales.pop(pais,'NO EXISTE')
         print(capitales)
