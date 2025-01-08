@@ -35,7 +35,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="D:\REPOSITORIOS\BDS-G3\modulo2.dia3\Python sql\venv"
+VIRTUAL_ENV="D:\REPOSITORIOS\BDS-G3\modulo2.dia3\python sql\venv"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"

@@ -8,7 +8,7 @@ if defined _OLD_CODEPAGE (
     "%SystemRoot%\System32\chcp.com" 65001 > nul
 )
 
-set VIRTUAL_ENV=D:\REPOSITORIOS\BDS-G3\modulo2.dia3\Python sql\venv
+set VIRTUAL_ENV=D:\REPOSITORIOS\BDS-G3\modulo2.dia3\python sql\venv
 
 if not defined PROMPT set PROMPT=$P$G
 
